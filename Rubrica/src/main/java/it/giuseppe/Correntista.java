@@ -235,7 +235,7 @@ public void Prelievo (ArrayList<Correntista> correntista) {
 		{
 			nuovoSaldo = thisSaldo - importo;
 			 correntista.get(posizione).getConti().get(qualeConto).setSaldo(nuovoSaldo);
-			System.out.println("Versamento effettuato");
+			System.out.println("Prelievo effettuato");
 			 System.out.println("Nuovo Saldo:"+" " +nuovoSaldo);
 		}
 			
